@@ -1,0 +1,64 @@
+{
+    "value": [
+        {
+            "displayName": "HPE Houston Headquarters",
+            "address": {
+                "street": "11445 Competition Drive",
+                "city": "Houston",
+                "state": "TX",
+                "postalCode": "77065",
+                "countryOrRegion": "United States"
+            }
+        },
+        {
+            "displayName": "HPE Palo Alto Engineering",
+            "address": {
+                "street": "1501 Page Mill Road",
+                "city": "Palo Alto",
+                "state": "CA",
+                "postalCode": "94304",
+                "countryOrRegion": "United States"
+            }
+        },
+        {
+            "displayName": "HPE San Jose R&D",
+            "address": {
+                "street": "2121 North First Street",
+                "city": "San Jose",
+                "state": "CA",
+                "postalCode": "95131",
+                "countryOrRegion": "United States"
+            }
+        },
+        {
+            "displayName": "HPE Sunnyvale Campus",
+            "address": {
+                "street": "6280 North San Carlos Road",
+                "city": "Sunnyvale",
+                "state": "CA",
+                "postalCode": "94086",
+                "countryOrRegion": "United States"
+            }
+        },
+        {
+            "displayName": "HPE Denver Data Center Hub",
+            "address": {
+                "street": "8000 East Yale Avenue",
+                "city": "Denver",
+                "state": "CO",
+                "postalCode": "80231",
+                "countryOrRegion": "United States"
+            }
+        },
+        {
+            "displayName": "HPE Atlanta Operations",
+            "address": {
+                "street": "3475 Piedmont Road",
+                "city": "Atlanta",
+                "state": "GA",
+                "postalCode": "30305",
+                "countryOrRegion": "United States"
+            }
+        }
+    ]
+}

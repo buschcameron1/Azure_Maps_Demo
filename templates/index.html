@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee to Office Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="maps-key" content="{{ maps_key }}">
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/3/atlas.min.css" />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/3/atlas.min.js"></script>
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/3/atlas-service.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Employee to Office Finder</h1>
+
+            <div class="form-group">
+                <label for="employee-select">Select Employee:</label>
+                <select id="employee-select">
+                    <option value="">-- Loading employees --</option>
+                </select>
+            </div>
+
+            <button id="find-office-btn" class="btn" disabled>Find Nearest Office</button>
+
+            <div id="results" class="results hidden">
+                <h2>Results</h2>
+                <div class="result-item">
+                    <label>Employee:</label>
+                    <p id="result-name"></p>
+                </div>
+                <div class="result-item">
+                    <label>Address:</label>
+                    <p id="result-address"></p>
+                </div>
+                <div class="result-item">
+                    <label>Nearest Office:</label>
+                    <p id="result-office"></p>
+                </div>
+                <div class="result-item">
+                    <label>Distance:</label>
+                    <p id="result-distance"></p>
+                </div>
+            </div>
+
+            <div id="error" class="error hidden"></div>
+        </div>
+
+        <div id="map" class="map"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+
+</html>
